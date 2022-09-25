@@ -1,0 +1,741 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Lato', sans-serif;
+   
+
+}
+
+/* Primer Seccion */
+
+
+.span2 {
+
+    color: #125c18;
+}
+
+.btn-neon{
+    transition: 0.2s;
+    font-size: 24px;
+}
+
+.btn-neon:hover{
+
+    background: #125c18;
+    box-shadow: 0 0 10px #125c18, 0 0 40px #125c18, 0 0 80px #125c18;
+    
+}
+
+.contenedor{
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.bg_animate{
+
+width: 100%;
+height: 100vh;
+background: linear-gradient(to right, #050505, #222222);
+position: relative;
+overflow: hidden;
+
+
+}
+
+.header_nav{
+
+width: 100%;
+position: absolute;
+top: 0%;
+left: 0%;
+
+}
+
+.header_nav .contenedor{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.header_nav h1{
+
+color: #fff;
+text-decoration: none;
+margin-right: 10px;
+
+
+}
+.header_nav a{
+
+color: #fff;
+text-decoration: none;
+margin-right: 10px;
+
+
+}
+
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+}
+.banner_title h2{
+
+color:#fff;
+font-size: 60px;
+font-weight: 800;
+margin-bottom: 20px;
+
+
+}
+.banner_title .llamanos{
+
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #125c18;
+    padding: 20px;
+
+}
+
+.banner_img{
+
+    animation: movimiento 2.5s linear infinite;
+
+} 
+
+.banner_img img{
+
+width: 600px;
+display: block;
+
+
+}
+
+/* Atomos animacion de la primer seccion*/
+
+.atomos img{
+
+    width: 100px;
+    height: 100px;
+   
+    position: absolute;
+    bottom: -150;
+    left: 6%;
+    
+    animation: iconmov 3s linear infinite;
+
+}
+
+.atomos img:nth-child(1){
+
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+}
+
+.atomos img:nth-child(2){
+
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+
+}
+
+.atomos img:nth-child(3){
+
+    width: 90px;
+    height: 90px;
+    left: 45%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+
+}
+
+.atomos img:nth-child(4){
+
+    width: 70px;
+    height: 70px;
+    left: 55%;
+    animation-duration: 4s;
+    animation-delay: 6s;
+
+}
+.atomos img:nth-child(5){
+
+    width: 50px;
+    height: 50px;
+    left: 65%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+
+}
+.atomos img:nth-child(6){
+
+    width: 75px;
+    height: 75px;
+    left: 75%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+
+}
+.atomos img:nth-child(7){
+
+    width: 65px;
+    height: 65px;
+    left: 85%;
+    animation-duration: 5s;
+    animation-delay: 7s;
+
+}
+.atomos img:nth-child(8){
+
+    width: 90px;
+    height: 90px;
+    left: 95%;
+    animation-duration: 7s;
+    animation-delay: 5s;
+
+}
+.atomos img:nth-child(9){
+
+    width: 30px;
+    height: 30px;
+    left: 20%;
+    animation-duration: 4s;
+    animation-delay: 4s;
+
+}
+.atomos img:nth-child(10){
+
+    width: 65px;
+    height: 65px;
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+
+}
+
+/* 2da seccion */
+.Seccionsec{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #050505, #222222);
+    position: relative;
+    overflow: hidden;
+   
+}
+
+span{
+    color: #c95817;
+}
+
+.aboutinf{
+
+color: #fff;
+
+
+}
+
+.aboutinf h1{
+
+    position: relative;
+    right: 100px;
+
+}
+
+.textabout{
+
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    right: 100px;
+    
+}
+
+.imagsec{
+
+    position: relative;
+    
+    top: 75px;
+    left: 50px;
+
+    animation: movimiento 2.5s linear infinite;
+
+}
+
+.contenedorsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.habilidades{
+
+width: 600px;
+margin: auto;
+
+padding: 10px;
+
+}
+.container{
+width: 100%;
+background-color: rgb(20, 20, 20);
+
+}
+.skills{
+
+text-align: right;
+padding: 10px;
+color: white;
+font-weight: bold;
+
+}
+.html{
+
+    background-color: #c47500;
+    animation: fillhtml 2s forwards;
+
+}
+.css{
+    background-color: #2196f3;
+    animation: fillcss 2s forwards;
+}
+.javascript{
+    background-color: #e2d300;
+    animation: filljavascript 2s forwards;
+}
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes filljavascript{
+
+    0%{width: 0;}
+    100%{width: 20%;}
+
+}
+
+/* segunda animacion */
+
+.htmlicon img{
+
+    width: 100px;
+    height: 100px;
+   
+    position: absolute;
+    bottom: -150px;
+    left: 6%;
+    
+    animation: iconmov 3s linear infinite;
+
+}
+
+/* Hijos del incono Html */
+
+.htmlicon img:nth-child(1){
+
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+}
+
+.htmlicon img:nth-child(2){
+
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+
+}
+
+.htmlicon img:nth-child(3){
+
+    width: 90px;
+    height: 90px;
+    left: 45%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+
+}
+
+.htmlicon img:nth-child(4){
+
+    width: 70px;
+    height: 70px;
+    left: 55%;
+    animation-duration: 4s;
+    animation-delay: 6s;
+
+}
+.htmlicon img:nth-child(5){
+
+    width: 50px;
+    height: 50px;
+    left: 65%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+
+}
+.htmlicon img:nth-child(6){
+
+    width: 75px;
+    height: 75px;
+    left: 75%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+
+}
+.htmlicon img:nth-child(7){
+
+    width: 65px;
+    height: 65px;
+    left: 85%;
+    animation-duration: 5s;
+    animation-delay: 7s;
+
+}
+.htmlicon img:nth-child(8){
+
+    width: 90px;
+    height: 90px;
+    left: 95%;
+    animation-duration: 7s;
+    animation-delay: 5s;
+
+}
+.htmlicon img:nth-child(9){
+
+    width: 30px;
+    height: 30px;
+    left: 20%;
+    animation-duration: 4s;
+    animation-delay: 4s;
+
+}
+.htmlicon img:nth-child(10){
+
+    width: 65px;
+    height: 65px;
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+
+}
+
+/* tercer seccion */
+
+.Seccionter{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #050505, #222222);
+    position: relative;
+    overflow: hidden;
+   
+
+}
+
+.imagter{
+
+    position: relative;
+    left: 1000px;
+    bottom: 1000px;
+    animation: movimiento 2.5s linear infinite;
+
+}
+
+.contactme{
+
+color: #fff;
+position: relative;
+top: 70px;
+left: 50px;
+
+}
+.networks{
+color: #fff;
+position: relative;
+bottom: 30px;
+left: 50px;
+    
+}
+
+.span3{
+
+color: #1c55cf;
+
+}
+.if{
+
+font-size: 75px;
+color:#1c55cf ;
+position: relative;
+left: 100px;
+
+}
+.il{
+
+    font-size: 75px;
+    color:#1c55cf ;
+    position: relative;
+    left: 300px;
+    bottom: 110px;
+
+    
+}
+.ig{
+
+    font-size: 75px;
+    color:#1c55cf ;
+    position: relative;
+    left: 500px;
+    bottom: 220px;
+        
+}
+
+/* barra de formulario */
+.tewamover{
+
+position: relative;
+left: 70px;
+bottom: 200px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+.contact-form{
+    margin-top: 20em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-form form{
+    align-self: left;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+.contact-form input{
+    height: 3em;
+    width: 40em;
+    margin: 3px;
+    border: 2px solid #1c55cf;
+}
+.contact-form textarea{
+    height: 10em;
+    width: 40em;
+    margin: 3px;
+    border: 2px solid #1c55cf;
+    text-align: left;
+}
+.contact-form button{
+    height: 2em;
+    width: 40em;
+    margin: 3px;
+    border: 2px solid #1c55cf;
+}
+.contact-form h4{
+    color: #fff;
+   
+}
+.mov{
+position: relative;
+left: 20px;
+
+}
+
+/* tercera animacion */
+
+.cssicon img{
+
+    width: 100px;
+    height: 100px;
+   
+    position: absolute;
+    bottom: -150px;
+    left: 6%;
+    
+    animation: iconmov 3s linear infinite;
+
+}
+
+.cssicon img:nth-child(1){
+
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+}
+
+.cssicon img:nth-child(2){
+
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+
+}
+
+.cssicon img:nth-child(3){
+
+    width: 90px;
+    height: 90px;
+    left: 45%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+
+}
+
+.cssicon img:nth-child(4){
+
+    width: 70px;
+    height: 70px;
+    left: 55%;
+    animation-duration: 4s;
+    animation-delay: 6s;
+
+}
+.cssicon img:nth-child(5){
+
+    width: 50px;
+    height: 50px;
+    left: 65%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+
+}
+.cssicon img:nth-child(6){
+
+    width: 75px;
+    height: 75px;
+    left: 75%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+
+}
+.cssicon img:nth-child(7){
+
+    width: 65px;
+    height: 65px;
+    left: 85%;
+    animation-duration: 5s;
+    animation-delay: 7s;
+
+}
+.cssicon img:nth-child(8){
+
+    width: 90px;
+    height: 90px;
+    left: 95%;
+    animation-duration: 7s;
+    animation-delay: 5s;
+
+}
+.cssicon img:nth-child(9){
+
+    width: 30px;
+    height: 30px;
+    left: 20%;
+    animation-duration: 4s;
+    animation-delay: 4s;
+
+}
+.cssicon img:nth-child(10){
+
+    width: 65px;
+    height: 65px;
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+
+}
+
+
+
+@keyframes iconmov{
+    0%{
+
+        bottom:0;
+        opacity: 0;
+        
+    
+    }
+    30%{
+
+    transform: translateX(30px);
+
+    }
+    50%{
+    
+    
+    opacity: .4;
+    
+    }
+    100%{
+    
+    bottom: 100vh;
+    opacity: 0;
+    
+    }
+}
+
+@keyframes movimiento{
+    0%{
+
+    transform: translateY(0);
+
+    }
+    50%{
+
+    transform: translateY(30px);
+
+    }
+    100%{
+
+    transform: translate(0);
+
+    }
+
+}
+
+
